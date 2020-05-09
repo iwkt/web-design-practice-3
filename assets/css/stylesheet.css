@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* ---- Typography ----*/
+body {
+  font-family: Lato;
+  color: #3c3c41;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.header {
+  margin: 5%;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+/* ---- images ----*/
+.logo-img img {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .logo-img img {
+    max-width: 30px;
+  }
+}
+
+.col-2 {
+  padding: 0;
+}
+
+p {
+  font-weight: 400;
+}
+
+.nav a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 4rem;
+  padding: 5px;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.nav a:hover {
+  color: teal;
+  border-color: teal;
+}
+
+@media (max-width: 576px) {
+  .nav {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.logo-name h2 {
+  font-weight: 400;
+}
+
+.logo-name h3 {
+  font-weight: 300;
+}
+
+.main-top {
+  margin-bottom: 9rem;
+}
+
+.bg-img {
+  width: 100%;
+}
+
+.works_content img {
+  width: 100%;
+}
+
+.about p {
+  margin-bottom: 3%;
+}
+
+footer {
+  padding: 4%;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 0.5rem;
+  padding: 1rem;
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+/*# sourceMappingURL=stylesheet.css.map */
