@@ -117,4 +117,35 @@ footer a {
   font-size: 0.9rem;
   font-weight: 400;
 }
+
+.change-btn-wrapper {
+  width: 500px;
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+.change-btn-wrapper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.prev-btn {
+  cursor: pointer;
+  float: left;
+  display: none;
+}
+
+.next-btn {
+  cursor: pointer;
+  float: right;
+}
+
+.slide {
+  display: none;
+}
+
+.active {
+  display: block;
+}
 /*# sourceMappingURL=stylesheet.css.map */
